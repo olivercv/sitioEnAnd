@@ -1021,7 +1021,7 @@ hr.divider{
 }
 
 .signature{
-    width: 150px;
+    width: 350px;
 }   
 
 .signature img{
@@ -1237,7 +1237,8 @@ hr.divider{
 .gallery-carousel .slide{
     margin: 0px 2px;
 }
-    
+
+
 .gallery-layer{
     position: relative;
     cursor: pointer;
@@ -1617,9 +1618,12 @@ svg {
     font-size: 18px;
 }  
     
+
+
 .social-bar .social-icon .fab:hover{
     color: #94bc20;
 }
+
 
 /*====================================================
     14. FAQ.
@@ -3434,7 +3438,7 @@ p.schedule::before{
 }
 
 .map{
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
 }
 
 .map-iframe{
@@ -5563,7 +5567,7 @@ hr.divider-alt{
 }
 
 .full-thumb-layer{
-    background-image: url("../img/images/oil-and-gas-img8.jpg");
+    background-image: url("../img/imagenes/oficinas.jpg");
     height: 600px; 
     background-position: center;
     background-repeat: no-repeat;
@@ -5572,7 +5576,7 @@ hr.divider-alt{
 }  
 
 .full-thumb-layer-alt{
-    background-image: url("../img/images/oil-and-gas-img9.jpg");
+    background-image: url("../img/imagenes/futbol.jpg");
     height: 600px; 
     background-position: center;
     background-repeat: no-repeat;
@@ -5584,7 +5588,12 @@ hr.divider-alt{
     background-color: #F7FAFA;
     height: 600px;
 }
-    
+ 
+.full-caption{
+    background-color: #F7FAFA;
+    height: 810px;
+}
+
 .fc-content{
     margin: 5rem 3rem;
     width: 70%;
@@ -5876,17 +5885,16 @@ hr.divider-alt{
     padding: 3rem;
     width: 80%;
 }
-    
 .sa-content p{
     color: #FFF;
 }
-    
+
 .sa-tittle{
     width: 100%;
     margin-bottom: 20px;
     border-left: solid 6px #94bc20;
 }
-    
+
 .sa-tittle h5{
     color: #FFF;
     margin-bottom: 10px;
@@ -5894,6 +5902,68 @@ hr.divider-alt{
 } 
     
 .sa-tittle h2{
+    margin-left: 20px;
+    color: #FFF;
+}
+
+
+    
+.mision-content{
+    text-align: right;
+    padding: 3rem;
+    width: 80%;
+    /* border: 1px solid #fff; */
+    margin-left: 20%;
+}
+.mision-content p{
+    color: #FFF;
+}
+    
+.mision-tittle{
+    width: 100%;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    border-right: solid 6px #94bc20;
+}
+    
+.mision-tittle h5{
+    color: #FFF;
+    margin-bottom: 10px;
+    margin-left: 20px;
+} 
+    
+.mision-tittle h2{
+    margin-left: 20px;
+    color: #FFF;
+}
+
+
+
+
+
+.vision-content{
+    text-align: left;
+    padding: 3rem;
+    width: 80%;
+}
+
+.vision-content p{
+    color: #FFF;
+}
+    
+.vision-tittle{
+    width: 100%;
+    margin-bottom: 20px;
+    border-left: solid 6px #94bc20;
+}
+    
+.vision-tittle h5{
+    color: #FFF;
+    margin-bottom: 10px;
+    margin-left: 20px;
+} 
+    
+.vision-tittle h2{
     margin-left: 20px;
     color: #FFF;
 }
