@@ -1911,7 +1911,16 @@ a.active:after {
 .sidebar-list .list-group-item:hover{
     background-color: #11505d;
 } 
-    
+ 
+.contenido {
+    margin-left: 8px;
+}
+
+.contenido .list-group-item {
+    margin-bottom: 5px;
+    border-left: solid 6px #00873d; 
+}
+
 .brochures{
     margin-top: 1rem;
 }   
