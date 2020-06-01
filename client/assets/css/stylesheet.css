@@ -1213,6 +1213,31 @@ hr.divider{
 	color: #333;
     text-decoration: none;
 }
+
+/* Cajon de seccion  valores  */
+.fw-values{
+    background-color: #11505d;
+    /* padding: 3rem 0rem 4rem; */
+    overflow: hidden;
+}
+
+.full-values-layer{
+    background-image: url("../img/imagenes/oficinas.jpg");
+    height: 600px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}  
+ 
+    
+.full-values-layer-text{
+    background-color: #F7FAFA;
+    height: 600px;
+}
+
+
+
 .fw-gallery-thumbnails{
     background-color: #11505d;
     padding: 3rem 0rem 4rem;
