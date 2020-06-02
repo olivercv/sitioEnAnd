@@ -4815,7 +4815,7 @@ p.active{
 }
 
 .agriculture-parallax{ 
-    background-image: url("../img/images/ag-parallax.jpg");
+    background-image: url("../img/imagenes/inter-turbina.jpg");
 }
 
 /*====================================================
@@ -5600,6 +5600,28 @@ hr.divider-alt{
     color: #333;
 }
 
+.text-white {
+    color: #fff;
+}
+
+.full-prod-layer{
+    background: #43BCCD;
+    height: 600px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}  
+
+.full-prod-layer-alt{
+    background: #43BCCD;
+    height: 600px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}  
+
 .full-thumb-layer{
     background-image: url("../img/imagenes/oficinas.jpg");
     height: 600px; 
@@ -5616,12 +5638,38 @@ hr.divider-alt{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}   
-    
+}  
+
+.full-color-layer{
+    background-color: #f1f1f1;
+    /* background-image: url("../img/imagenes/oficinas.jpg"); */
+    height: 730px; 
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: relative;
+}  
+
+.full-color-layer-alt{
+    background-color: #f1f1f1;
+    /* background-image: url("../img/imagenes/futbol.jpg"); */
+    height: 730px; 
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: relative;
+}  
+
+.full-caption-layer-foda{
+    background-color: #F7FAFA;
+    height: 730px;
+}
+
 .full-caption-layer{
     background-color: #F7FAFA;
     height: 600px;
 }
+
  
 .full-caption{
     background-color: #F7FAFA;
@@ -5650,7 +5698,11 @@ hr.divider-alt{
 .span-checklist{
     margin-top: 1.5rem;
 }
-    
+   
+.foda-list p{
+    font-size: 0.55em;
+    margin-bottom: 1em;
+}
 .span-checklist p{
     line-height: 2.3;
     color: #333;
@@ -5940,7 +5992,14 @@ hr.divider-alt{
     color: #FFF;
 }
 
+.sa-tittle h3{
+    margin-left: 20px;
+    color: #FFF;
+}
 
+.sa-content .text{
+    
+}
     
 .mision-content{
     text-align: right;
