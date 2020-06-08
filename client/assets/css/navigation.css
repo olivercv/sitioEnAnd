@@ -11,7 +11,7 @@ body{
 
 /* ========== NAVBAR. ========== */
 .main-nav{
-    /* padding: 15px 0px 8px; */
+    padding: 15px 0px 8px;
     background-color: #FFF;
     -webkit-box-shadow: 0 4px 4px -6px #333;
 	   -moz-box-shadow: 0 4px 4px -6px #333;
@@ -392,16 +392,6 @@ body{
   border-color: transparent #808080 #808080 transparent;
 }
 
-.dropdown-menu {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
- 
-  text-decoration: none;
-  font-size: 14px;
-  color: #333;
-  -webkit-transition: color 0.3s, background 0.3s;
-  transition: color 0.3s, background 0.3s;
-}
 
 .navigation-portrait .submenu-indicator-chevron {
   position: absolute;
@@ -656,7 +646,7 @@ body{
 .nav-dropdown > li > a {
   font-family: 'Poppins', sans-serif;
   width: 100%;
-  padding: 16px 20px;
+  padding: 8px 20px;
   display: inline-block;
   text-decoration: none;
   float: left;
@@ -671,6 +661,7 @@ body{
 .nav-dropdown > li:hover > a,
 .nav-dropdown > li.focus > a {
   color: #002642;
+  background-color: #dbe0df;
 }
 
 .nav-dropdown.nav-dropdown-left {

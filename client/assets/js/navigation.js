@@ -1,3 +1,5 @@
+function initMenu(){
+
 ;(function ( $, window, document, undefined ){
  
     $.navigation = function(element, options){
@@ -1572,3 +1574,4 @@ $(document).ready(function(){
     };
  
 })( jQuery, window, document );
+}
