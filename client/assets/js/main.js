@@ -44,7 +44,8 @@ jQuery(document).ready(function(){
 	// here all ready functions
 	
 	loader();
-	scroll_top();
+  scroll_top();
+  get_top();
     counter_up();
     magnific_popup();
     video_popup();
@@ -78,8 +79,9 @@ function scroll_top(){
     "use strict";
 	var offset = 300,
 		offset_opacity = 1200,
-		scroll_top_duration = 700,
-		$back_to_top = $('.cd-top');
+		scroll_top_duration = 100,
+    $back_to_top = $('.cd-top');
+    // $back_to_top = $('.to-top');
 
 	$(window).scroll(function(){
 		( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
@@ -95,6 +97,26 @@ function scroll_top(){
 		 	}, scroll_top_duration
 		);
 	});
+
+};
+
+function get_top(){
+  "use strict";
+var offset = 300,
+  // offset_opacity = 1200,
+  to_top_duration = 1,
+  // $back_to_top = $('.cd-top');
+  $get_to_top = $('.to-top');
+
+
+
+$get_to_top.on('click', function(event){
+  event.preventDefault();
+  $('body,html').animate({
+    scrollTop: 0 ,
+     }, to_top_duration
+  );
+});
 
 };
 
