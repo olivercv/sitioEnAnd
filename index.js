@@ -6,5 +6,5 @@ var port = process.env.PORT || 4000;
 
 
 app.listen(port, () => {
-    console.log('El servidor esta corriendo correctamente en el puerto: ', port);
+    console.log('Servidor corriendo correctamente en el puerto: ', port);
 });
